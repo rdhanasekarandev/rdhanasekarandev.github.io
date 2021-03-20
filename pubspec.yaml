@@ -1,0 +1,45 @@
+name: karkai_web
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  scrollable_positioned_list: ^0.1.10
+  flutter_bloc: ^7.0.0
+  shared_preferences: ^0.5.8
+  equatable: ^2.0.0
+  page_transition: ^1.1.7+6
+  http: ^0.13.1
+  search_widget: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/langs/ta.json
+    - assets/langs/en.json
+    - assets/images/
+
+  fonts:
+  - family: 'logo'
+    fonts:
+      - asset: font/logo.ttf
+  - family: 'font'
+    fonts:
+      - asset: font/font.ttf    
